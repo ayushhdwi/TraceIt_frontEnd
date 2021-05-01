@@ -1,12 +1,8 @@
 const navbar = document.querySelector(".navbar");
-
 const brand = document.querySelector(".brand");
-
 const hamberger = document.querySelector(".hamburger");
 const line = document.querySelectorAll(".line");
-
 const options = document.querySelector(".options");
-
 
 hamberger.addEventListener('click',() => {
 	options.classList.toggle("open");
